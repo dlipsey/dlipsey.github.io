@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: title
 title: Daniel Lipsey
 ---
 
-### PhD Candidate in Health Services & Policy Research (Health Economics Track) at Boston University
+### PhD Candidate in Health Services & Policy Research (Health Economics) <br> at Boston University
 
 ### CV
 
