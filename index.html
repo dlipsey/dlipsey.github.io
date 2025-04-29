@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>About Daniel Lipsey</title>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  integrity="sha512-pzw6kXyQbp+ZtvE1JQb0zY+oEpfkeRAuM2A0g4hFaQ8YQzqv8HQRL3dPutbxp67zM5Gkk8D8Q8Vx3vYhG+DVdg=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #111;
+    }
+    header { text-align: center; margin-bottom: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .links a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0;
+      text-decoration: none;
+      color: #0066cc;
+    }
+  </style>
 </head>
 <body>
-  <main class="about-container">
-    <!-- LEFT COLUMN -->
-    <div class="about-col about-col--left">
-         <img src="DL.jpeg" class="about-image
-                rounded " style="width: 20em;"> 
-  <nav class="social-nav">
-  <a href="https://www.linkedin.com/in/daniel-lipsey-2b698362/" target="_blank">
-    <i class="fab fa-linkedin" aria-hidden="true"></i>
-    <span class="sr-only">LinkedIn</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=9_PGpL0AAAAJ&hl=en" target="_blank">
-    <i class="fas fa-user-graduate" aria-hidden="true"></i>
-    <span class="sr-only">Google Scholar</span>
-  </a>
-  </nav>
-    </div>
 
-    <!-- RIGHT COLUMN -->
-    <div class="about-col about-col--right">
-      <h1>Daniel Lipsey</h1>
-      <p class="current-role">Health Economics • Data Science • Causal Inference</p>
-      <ul class="resource-links">
-        <li><a href="Daniel_Lipsey_CV.pdf" target="_blank">📄 CV</a></li>
-        <li><a href="publications.html"          target="_blank">📚 Publications</a></li>
-        <!-- add more links here -->
-      </ul>
-    </div>
+  <header>
+    <h1>Daniel Lipsey</h1>
+    <p>Health Economics • Data Science • Causal Inference</p>
+  </header>
+
+  <main>
+    <section class="links">
+      <a href="Daniel_Lipsey_CV.pdf" target="_blank">📄 CV</a>
+      <a href="publications.html">📚 Publications</a>
+    </section>
   </main>
+
 </body>
 </html>
