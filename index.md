@@ -3,7 +3,7 @@ layout: default
 title: ""
 ---
 
-### PhD Candidate in Health Services & Policy Research (Health Economics) <br> at Boston University
+### **PhD Candidate in Health Services & Policy Research (Health Economics) <br> at Boston University**
 
 ### CV
 
