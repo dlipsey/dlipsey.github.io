@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel Lipsey
+title: ""
 ---
 
 ### PhD Candidate in Health Services & Policy Research (Health Economics) <br> at Boston University
